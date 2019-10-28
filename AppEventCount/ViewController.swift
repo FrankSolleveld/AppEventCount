@@ -34,7 +34,7 @@ class ViewController: UIViewController {
     }
     
     func updateView() {
-        didFinishLaunchingLabel.text = "The app has launched\(launchCount) time(s)"
+        didFinishLaunchingLabel.text = "The app has launched \(launchCount) time(s)"
         didDisconnectLabel.text = "The app has disconnected \(disconnectCount) time(s)"
         didBecomeActiveLabel.text = "The app became active \(becomeActiveCount) time(s)"
         willResignActiveLabel.text = "The app resigned to active \(resignActiveCount) time(s)"
